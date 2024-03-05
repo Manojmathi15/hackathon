@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={poppins.className}>
+    <html data-theme="mytheme" lang="en" className={poppins.className}>
       <body className="bg-background text-text">{children}</body>
     </html>
   );
